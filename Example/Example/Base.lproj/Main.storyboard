@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="TQx-so-jKB">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="hoR-Rz-VGC">
+            <objects>
+                <navigationController id="TQx-so-jKB" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FHR-5j-ggt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="5Et-Fs-rTy" kind="relationship" relationship="rootViewController" id="jYc-Qk-j9O"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Vk-sW-Uvo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-236" y="-37"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="G0t-UR-R6w">
+            <objects>
+                <viewController id="5Et-Fs-rTy" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="i6j-SK-SXW"/>
+                        <viewControllerLayoutGuide type="bottom" id="wgm-d0-XZR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="q8s-4B-bQo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kpc-eb-a8Q">
+                                <rect key="frame" x="98" y="237" width="150" height="87"/>
+                                <color key="backgroundColor" red="0.54901960780000003" green="0.77647058820000003" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="3wc-6W-UJe"/>
+                                    <constraint firstAttribute="width" constant="150" id="G4I-xm-7Sk"/>
+                                </constraints>
+                                <state key="normal" title="点击跳转到测试VC"/>
+                                <connections>
+                                    <action selector="btnclicked:" destination="5Et-Fs-rTy" eventType="touchUpInside" id="awQ-NT-Eqs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kpc-eb-a8Q" firstAttribute="centerY" secondItem="q8s-4B-bQo" secondAttribute="centerY" constant="-53" id="1t9-9X-sax"/>
+                            <constraint firstItem="kpc-eb-a8Q" firstAttribute="centerX" secondItem="q8s-4B-bQo" secondAttribute="centerX" constant="-14.5" id="z4u-gI-2sf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="wLs-y1-bgj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NGx-Ed-ZPa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="456.80000000000001" y="35.532233883058474"/>
+        </scene>
+    </scenes>
+</document>

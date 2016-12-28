@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046D37371E1357B4007F2B47 /* zichenPodModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 046D37351E1357B4007F2B47 /* zichenPodModel.h */; };
+		046D37381E1357B4007F2B47 /* zichenPodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D37361E1357B4007F2B47 /* zichenPodModel.m */; };
+		046D373B1E135916007F2B47 /* zichen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046D373A1E135916007F2B47 /* zichen.storyboard */; };
+		046D373F1E1359D2007F2B47 /* zichenPodXibVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 046D373C1E1359D2007F2B47 /* zichenPodXibVC.h */; };
+		046D37401E1359D2007F2B47 /* zichenPodXibVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D373D1E1359D2007F2B47 /* zichenPodXibVC.m */; };
+		046D37411E1359D2007F2B47 /* zichenPodXibVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046D373E1E1359D2007F2B47 /* zichenPodXibVC.xib */; };
+		046D37441E1359EB007F2B47 /* zichenPodStoryboardVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 046D37421E1359EB007F2B47 /* zichenPodStoryboardVC.h */; };
+		046D37451E1359EB007F2B47 /* zichenPodStoryboardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D37431E1359EB007F2B47 /* zichenPodStoryboardVC.m */; };
+		046D37471E135B5B007F2B47 /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046D37461E135B5B007F2B47 /* location@2x.png */; };
+		046D375D1E13600B007F2B47 /* zichenPodDirTwo.h in Headers */ = {isa = PBXBuildFile; fileRef = 046D375B1E13600B007F2B47 /* zichenPodDirTwo.h */; };
+		046D375E1E13600B007F2B47 /* zichenPodDirTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D375C1E13600B007F2B47 /* zichenPodDirTwo.m */; };
+		046D376B1E1363A9007F2B47 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046D37641E1363A9007F2B47 /* BaiduMapAPI_Base.framework */; };
+		046D376C1E1363A9007F2B47 /* BaiduMapAPI_Cloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046D37651E1363A9007F2B47 /* BaiduMapAPI_Cloud.framework */; };
+		046D376D1E1363A9007F2B47 /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046D37661E1363A9007F2B47 /* BaiduMapAPI_Location.framework */; };
+		046D376E1E1363A9007F2B47 /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046D37671E1363A9007F2B47 /* BaiduMapAPI_Map.framework */; };
+		046D376F1E1363A9007F2B47 /* BaiduMapAPI_Radar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046D37681E1363A9007F2B47 /* BaiduMapAPI_Radar.framework */; };
+		046D37701E1363A9007F2B47 /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046D37691E1363A9007F2B47 /* BaiduMapAPI_Search.framework */; };
+		046D37711E1363A9007F2B47 /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046D376A1E1363A9007F2B47 /* BaiduMapAPI_Utils.framework */; };
+		046D37731E1363F3007F2B47 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046D37721E1363F3007F2B47 /* CoreLocation.framework */; };
+		046D37751E1363FC007F2B47 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046D37741E1363FC007F2B47 /* QuartzCore.framework */; };
+		046D37771E136402007F2B47 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046D37761E136402007F2B47 /* Security.framework */; };
+		046D37791E13640D007F2B47 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046D37781E13640D007F2B47 /* OpenGLES.framework */; };
+		046D377B1E136418007F2B47 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046D377A1E136418007F2B47 /* SystemConfiguration.framework */; };
+		046D377D1E13641F007F2B47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046D377C1E13641F007F2B47 /* CoreGraphics.framework */; };
+		046D377F1E13642B007F2B47 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 046D377E1E13642B007F2B47 /* libsqlite3.0.tbd */; };
+		046D37811E136439007F2B47 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 046D37801E136439007F2B47 /* libstdc++.6.0.9.tbd */; };
+		046D37831E136440007F2B47 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046D37821E136440007F2B47 /* CoreTelephony.framework */; };
+		046D37881E136B64007F2B47 /* zichenHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = 046D37861E136B64007F2B47 /* zichenHelp.h */; };
+		046D37891E136B64007F2B47 /* zichenHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D37871E136B64007F2B47 /* zichenHelp.m */; };
+		618E4AD281AABECDC0D542BD /* libPods-zichenPodSpec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E35027E32A0B9A9C91905FDD /* libPods-zichenPodSpec.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		045F90241E128157009C64E4 /* zichenPodSpec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = zichenPodSpec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		046D37351E1357B4007F2B47 /* zichenPodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zichenPodModel.h; sourceTree = "<group>"; };
+		046D37361E1357B4007F2B47 /* zichenPodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zichenPodModel.m; sourceTree = "<group>"; };
+		046D37391E13582E007F2B47 /* zichenHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zichenHeader.h; sourceTree = "<group>"; };
+		046D373A1E135916007F2B47 /* zichen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = zichen.storyboard; sourceTree = "<group>"; };
+		046D373C1E1359D2007F2B47 /* zichenPodXibVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zichenPodXibVC.h; sourceTree = "<group>"; };
+		046D373D1E1359D2007F2B47 /* zichenPodXibVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zichenPodXibVC.m; sourceTree = "<group>"; };
+		046D373E1E1359D2007F2B47 /* zichenPodXibVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = zichenPodXibVC.xib; sourceTree = "<group>"; };
+		046D37421E1359EB007F2B47 /* zichenPodStoryboardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zichenPodStoryboardVC.h; sourceTree = "<group>"; };
+		046D37431E1359EB007F2B47 /* zichenPodStoryboardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zichenPodStoryboardVC.m; sourceTree = "<group>"; };
+		046D37461E135B5B007F2B47 /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
+		046D375B1E13600B007F2B47 /* zichenPodDirTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zichenPodDirTwo.h; sourceTree = "<group>"; };
+		046D375C1E13600B007F2B47 /* zichenPodDirTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zichenPodDirTwo.m; sourceTree = "<group>"; };
+		046D37641E1363A9007F2B47 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		046D37651E1363A9007F2B47 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Cloud.framework; path = Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		046D37661E1363A9007F2B47 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Location.framework; path = Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
+		046D37671E1363A9007F2B47 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		046D37681E1363A9007F2B47 /* BaiduMapAPI_Radar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Radar.framework; path = Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Radar.framework; sourceTree = "<group>"; };
+		046D37691E1363A9007F2B47 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		046D376A1E1363A9007F2B47 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Utils.framework; path = Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		046D37721E1363F3007F2B47 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		046D37741E1363FC007F2B47 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		046D37761E136402007F2B47 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		046D37781E13640D007F2B47 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		046D377A1E136418007F2B47 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		046D377C1E13641F007F2B47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		046D377E1E13642B007F2B47 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		046D37801E136439007F2B47 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		046D37821E136440007F2B47 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		046D37861E136B64007F2B47 /* zichenHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zichenHelp.h; sourceTree = "<group>"; };
+		046D37871E136B64007F2B47 /* zichenHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zichenHelp.m; sourceTree = "<group>"; };
+		7AF5D07576CCC460E1D48631 /* Pods-zichenPodSpec.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zichenPodSpec.release.xcconfig"; path = "Pods/Target Support Files/Pods-zichenPodSpec/Pods-zichenPodSpec.release.xcconfig"; sourceTree = "<group>"; };
+		E35027E32A0B9A9C91905FDD /* libPods-zichenPodSpec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zichenPodSpec.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F561379DD2C3BB285204D7 /* Pods-zichenPodSpec.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zichenPodSpec.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zichenPodSpec/Pods-zichenPodSpec.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		045F90201E128157009C64E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046D37831E136440007F2B47 /* CoreTelephony.framework in Frameworks */,
+				046D37811E136439007F2B47 /* libstdc++.6.0.9.tbd in Frameworks */,
+				046D377F1E13642B007F2B47 /* libsqlite3.0.tbd in Frameworks */,
+				046D377D1E13641F007F2B47 /* CoreGraphics.framework in Frameworks */,
+				046D377B1E136418007F2B47 /* SystemConfiguration.framework in Frameworks */,
+				046D37791E13640D007F2B47 /* OpenGLES.framework in Frameworks */,
+				046D37771E136402007F2B47 /* Security.framework in Frameworks */,
+				046D37751E1363FC007F2B47 /* QuartzCore.framework in Frameworks */,
+				046D37731E1363F3007F2B47 /* CoreLocation.framework in Frameworks */,
+				046D376B1E1363A9007F2B47 /* BaiduMapAPI_Base.framework in Frameworks */,
+				046D376C1E1363A9007F2B47 /* BaiduMapAPI_Cloud.framework in Frameworks */,
+				046D376D1E1363A9007F2B47 /* BaiduMapAPI_Location.framework in Frameworks */,
+				046D376E1E1363A9007F2B47 /* BaiduMapAPI_Map.framework in Frameworks */,
+				046D376F1E1363A9007F2B47 /* BaiduMapAPI_Radar.framework in Frameworks */,
+				046D37701E1363A9007F2B47 /* BaiduMapAPI_Search.framework in Frameworks */,
+				046D37711E1363A9007F2B47 /* BaiduMapAPI_Utils.framework in Frameworks */,
+				618E4AD281AABECDC0D542BD /* libPods-zichenPodSpec.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045F901A1E128157009C64E4 = {
+			isa = PBXGroup;
+			children = (
+				045F90261E128157009C64E4 /* zichenPodSpec */,
+				045F90251E128157009C64E4 /* Products */,
+				05A866C5AD711B29C9D405B7 /* Pods */,
+				EFB2EF2B7A09AFC5DE798353 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		045F90251E128157009C64E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				045F90241E128157009C64E4 /* zichenPodSpec.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		045F90261E128157009C64E4 /* zichenPodSpec */ = {
+			isa = PBXGroup;
+			children = (
+				046D37851E136B50007F2B47 /* Help */,
+				046D375A1E135FF1007F2B47 /* zichenPodDirTwo */,
+				046D37341E1357B4007F2B47 /* zichenPodDirOne */,
+				046D37391E13582E007F2B47 /* zichenHeader.h */,
+			);
+			path = zichenPodSpec;
+			sourceTree = "<group>";
+		};
+		046D37341E1357B4007F2B47 /* zichenPodDirOne */ = {
+			isa = PBXGroup;
+			children = (
+				046D37461E135B5B007F2B47 /* location@2x.png */,
+				046D37351E1357B4007F2B47 /* zichenPodModel.h */,
+				046D37361E1357B4007F2B47 /* zichenPodModel.m */,
+				046D373C1E1359D2007F2B47 /* zichenPodXibVC.h */,
+				046D373D1E1359D2007F2B47 /* zichenPodXibVC.m */,
+				046D373E1E1359D2007F2B47 /* zichenPodXibVC.xib */,
+				046D37421E1359EB007F2B47 /* zichenPodStoryboardVC.h */,
+				046D37431E1359EB007F2B47 /* zichenPodStoryboardVC.m */,
+				046D373A1E135916007F2B47 /* zichen.storyboard */,
+			);
+			path = zichenPodDirOne;
+			sourceTree = "<group>";
+		};
+		046D375A1E135FF1007F2B47 /* zichenPodDirTwo */ = {
+			isa = PBXGroup;
+			children = (
+				046D375B1E13600B007F2B47 /* zichenPodDirTwo.h */,
+				046D375C1E13600B007F2B47 /* zichenPodDirTwo.m */,
+			);
+			path = zichenPodDirTwo;
+			sourceTree = "<group>";
+		};
+		046D37851E136B50007F2B47 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				046D37861E136B64007F2B47 /* zichenHelp.h */,
+				046D37871E136B64007F2B47 /* zichenHelp.m */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		05A866C5AD711B29C9D405B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3F561379DD2C3BB285204D7 /* Pods-zichenPodSpec.debug.xcconfig */,
+				7AF5D07576CCC460E1D48631 /* Pods-zichenPodSpec.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFB2EF2B7A09AFC5DE798353 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				046D37821E136440007F2B47 /* CoreTelephony.framework */,
+				046D37801E136439007F2B47 /* libstdc++.6.0.9.tbd */,
+				046D377E1E13642B007F2B47 /* libsqlite3.0.tbd */,
+				046D377C1E13641F007F2B47 /* CoreGraphics.framework */,
+				046D377A1E136418007F2B47 /* SystemConfiguration.framework */,
+				046D37781E13640D007F2B47 /* OpenGLES.framework */,
+				046D37761E136402007F2B47 /* Security.framework */,
+				046D37741E1363FC007F2B47 /* QuartzCore.framework */,
+				046D37721E1363F3007F2B47 /* CoreLocation.framework */,
+				046D37641E1363A9007F2B47 /* BaiduMapAPI_Base.framework */,
+				046D37651E1363A9007F2B47 /* BaiduMapAPI_Cloud.framework */,
+				046D37661E1363A9007F2B47 /* BaiduMapAPI_Location.framework */,
+				046D37671E1363A9007F2B47 /* BaiduMapAPI_Map.framework */,
+				046D37681E1363A9007F2B47 /* BaiduMapAPI_Radar.framework */,
+				046D37691E1363A9007F2B47 /* BaiduMapAPI_Search.framework */,
+				046D376A1E1363A9007F2B47 /* BaiduMapAPI_Utils.framework */,
+				E35027E32A0B9A9C91905FDD /* libPods-zichenPodSpec.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		045F90211E128157009C64E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046D37881E136B64007F2B47 /* zichenHelp.h in Headers */,
+				046D375D1E13600B007F2B47 /* zichenPodDirTwo.h in Headers */,
+				046D37441E1359EB007F2B47 /* zichenPodStoryboardVC.h in Headers */,
+				046D373F1E1359D2007F2B47 /* zichenPodXibVC.h in Headers */,
+				046D37371E1357B4007F2B47 /* zichenPodModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		045F90231E128157009C64E4 /* zichenPodSpec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045F902C1E128157009C64E4 /* Build configuration list for PBXNativeTarget "zichenPodSpec" */;
+			buildPhases = (
+				7DA40596FD0D31C5AC56BE4A /* [CP] Check Pods Manifest.lock */,
+				045F901F1E128157009C64E4 /* Sources */,
+				045F90201E128157009C64E4 /* Frameworks */,
+				045F90211E128157009C64E4 /* Headers */,
+				045F90221E128157009C64E4 /* Resources */,
+				C25F99A45A9AC39207A85583 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zichenPodSpec;
+			productName = zichenPodSpec;
+			productReference = 045F90241E128157009C64E4 /* zichenPodSpec.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		045F901B1E128157009C64E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = zichen0422;
+				TargetAttributes = {
+					045F90231E128157009C64E4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = W222R58V26;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 045F901E1E128157009C64E4 /* Build configuration list for PBXProject "zichenPodSpec" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 045F901A1E128157009C64E4;
+			productRefGroup = 045F90251E128157009C64E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				045F90231E128157009C64E4 /* zichenPodSpec */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		045F90221E128157009C64E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046D37471E135B5B007F2B47 /* location@2x.png in Resources */,
+				046D373B1E135916007F2B47 /* zichen.storyboard in Resources */,
+				046D37411E1359D2007F2B47 /* zichenPodXibVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DA40596FD0D31C5AC56BE4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C25F99A45A9AC39207A85583 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zichenPodSpec/Pods-zichenPodSpec-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		045F901F1E128157009C64E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046D37891E136B64007F2B47 /* zichenHelp.m in Sources */,
+				046D37451E1359EB007F2B47 /* zichenPodStoryboardVC.m in Sources */,
+				046D375E1E13600B007F2B47 /* zichenPodDirTwo.m in Sources */,
+				046D37381E1357B4007F2B47 /* zichenPodModel.m in Sources */,
+				046D37401E1359D2007F2B47 /* zichenPodXibVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		045F902A1E128157009C64E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		045F902B1E128157009C64E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		045F902D1E128157009C64E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F561379DD2C3BB285204D7 /* Pods-zichenPodSpec.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = W222R58V26;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/BaiduMapKit/BaiduMapKit",
+				);
+				INFOPLIST_FILE = zichenPodSpec/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Okdeer.zichenPodSpec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		045F902E1E128157009C64E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AF5D07576CCC460E1D48631 /* Pods-zichenPodSpec.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = W222R58V26;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/BaiduMapKit/BaiduMapKit",
+				);
+				INFOPLIST_FILE = zichenPodSpec/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Okdeer.zichenPodSpec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		045F901E1E128157009C64E4 /* Build configuration list for PBXProject "zichenPodSpec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045F902A1E128157009C64E4 /* Debug */,
+				045F902B1E128157009C64E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045F902C1E128157009C64E4 /* Build configuration list for PBXNativeTarget "zichenPodSpec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045F902D1E128157009C64E4 /* Debug */,
+				045F902E1E128157009C64E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 045F901B1E128157009C64E4 /* Project object */;
+}

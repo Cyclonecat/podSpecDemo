@@ -1,0 +1,45 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - zichenPodSpec (0.0.1):
+    - AFNetworking
+    - zichenPodSpec/zichenPodSpec (= 0.0.1)
+  - zichenPodSpec/zichenPodSpec (0.0.1):
+    - AFNetworking
+    - zichenPodSpec/zichenPodSpec/Help (= 0.0.1)
+    - zichenPodSpec/zichenPodSpec/zichenPodDirOne (= 0.0.1)
+    - zichenPodSpec/zichenPodSpec/zichenPodDirTwo (= 0.0.1)
+  - zichenPodSpec/zichenPodSpec/Help (0.0.1):
+    - AFNetworking
+  - zichenPodSpec/zichenPodSpec/zichenPodDirOne (0.0.1):
+    - AFNetworking
+  - zichenPodSpec/zichenPodSpec/zichenPodDirTwo (0.0.1):
+    - AFNetworking
+
+DEPENDENCIES:
+  - zichenPodSpec (from `../`)
+
+EXTERNAL SOURCES:
+  zichenPodSpec:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  zichenPodSpec: 30056aca3a3de5aee4460087bf19ad2c1bbf81bd
+
+PODFILE CHECKSUM: 7fc4daa9256497553d7fa7c0f1805b7b33a85c9e
+
+COCOAPODS: 1.1.1

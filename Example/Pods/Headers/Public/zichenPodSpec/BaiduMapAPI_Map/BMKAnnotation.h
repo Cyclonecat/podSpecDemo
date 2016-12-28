@@ -1,0 +1,1 @@
+../../../../../../Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKAnnotation.h
