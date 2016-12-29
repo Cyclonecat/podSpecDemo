@@ -97,9 +97,9 @@ Pod::Spec.new do |s|
   # s.public_header_files = "Classes/**/*.h"
 
     s.subspec "zichenPodSpec" do |zichenpodspec|
-        zichenpodspec.subspec "Help" do |help|
-            help.source_files = "zichenPodSpec/Help/*.{h,m}"
-        end
+#zichenpodspec.subspec "Help" do |help|
+#            help.source_files = "zichenPodSpec/Help/*.{h,m}"
+#       end
 
         zichenpodspec.subspec "zichenPodDirOne" do |zichenpoddirone|
             zichenpoddirone.source_files = "zichenPodSpec/zichenPodDirOne/*.{h,m}"

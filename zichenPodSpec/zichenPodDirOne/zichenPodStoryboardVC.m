@@ -8,6 +8,8 @@
 
 #import "zichenPodStoryboardVC.h"
 #import "zichenHeader.h"
+#import "zichenHelp.h"
+#import "zichenPodXibVC.h"
 
 @interface zichenPodStoryboardVC ()
 
@@ -19,6 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.navigationItem.title = @"测试的sb的VC";
     AFHTTPSessionManager *manager;
 }
 
@@ -26,15 +29,13 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    
+- (IBAction)btnclicked:(id)sender {
+    
+    //UINib *bundle = [zichenHelp GetBundleNamexibbundle:@"zichenPodXibVC"];
+    NSBundle *bundle = [zichenHelp GetBundleNamexibbundle];
+    zichenPodXibVC *xibVC = [[zichenPodXibVC alloc] initWithNibName:@"zichenPodXibVC" bundle:bundle];
+    [self.navigationController pushViewController:xibVC animated:YES];
 }
-*/
 
 @end

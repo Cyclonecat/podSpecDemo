@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import <zichenPodSpec/zichenPodXibVC.h>
+#import <zichenPodSpec/zichenHelp.h>
+#import <zichenPodSpec/zichenPodStoryboardVC.h>
 
 @interface ViewController ()
 
@@ -18,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.navigationItem.title = @"主目录";
 }
 
 
@@ -28,6 +31,10 @@
 
 - (IBAction)btnclicked:(id)sender {
     
+    // 跳转进入 
+    UIStoryboard *sboard = [zichenHelp GetUIStoryBoardNamexibbundle];
+    zichenPodStoryboardVC *ticketMainVC = [sboard instantiateViewControllerWithIdentifier:@"zichenPodStoryboardVC"];
+    [self.navigationController pushViewController:ticketMainVC animated:YES];
 }
 
 @end

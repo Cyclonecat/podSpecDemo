@@ -49,10 +49,6 @@
       "name": "zichenPodSpec",
       "subspecs": [
         {
-          "name": "Help",
-          "source_files": "zichenPodSpec/Help/*.{h,m}"
-        },
-        {
           "name": "zichenPodDirOne",
           "source_files": "zichenPodSpec/zichenPodDirOne/*.{h,m}",
           "dependencies": {

@@ -21,22 +21,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这是sb测试VC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfU-wa-9c3">
-                                <rect key="frame" x="72" y="149" width="230" height="143"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OHI-nz-cBx">
+                                <rect key="frame" x="68" y="178" width="200" height="174"/>
                                 <color key="backgroundColor" red="0.54901960780000003" green="0.77647058820000003" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="230" id="gMB-kz-rxk"/>
-                                    <constraint firstAttribute="height" constant="143" id="rBS-5G-wxz"/>
+                                    <constraint firstAttribute="width" constant="200" id="9BZ-t6-sPw"/>
+                                    <constraint firstAttribute="height" constant="174" id="TMt-P2-aWD"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="点击跳转到测试的xibVC"/>
+                                <connections>
+                                    <action selector="btnclicked:" destination="IFs-Je-JWM" eventType="touchUpInside" id="oFs-c1-EUF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="bfU-wa-9c3" firstAttribute="centerY" secondItem="75X-ju-Dgf" secondAttribute="centerY" constant="-113" id="dNo-jh-XEI"/>
-                            <constraint firstItem="bfU-wa-9c3" firstAttribute="centerX" secondItem="75X-ju-Dgf" secondAttribute="centerX" id="yV6-k4-HZW"/>
+                            <constraint firstItem="OHI-nz-cBx" firstAttribute="centerX" secondItem="75X-ju-Dgf" secondAttribute="centerX" constant="-19.5" id="Boi-3f-wMd"/>
+                            <constraint firstItem="OHI-nz-cBx" firstAttribute="centerY" secondItem="75X-ju-Dgf" secondAttribute="centerY" constant="-68.5" id="fEO-QH-gil"/>
                         </constraints>
                     </view>
                 </viewController>

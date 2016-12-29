@@ -44,7 +44,7 @@
                                     <constraint firstAttribute="height" constant="87" id="3wc-6W-UJe"/>
                                     <constraint firstAttribute="width" constant="150" id="G4I-xm-7Sk"/>
                                 </constraints>
-                                <state key="normal" title="点击跳转到测试VC"/>
+                                <state key="normal" title="点击跳转到SB测试VC"/>
                                 <connections>
                                     <action selector="btnclicked:" destination="5Et-Fs-rTy" eventType="touchUpInside" id="awQ-NT-Eqs"/>
                                 </connections>

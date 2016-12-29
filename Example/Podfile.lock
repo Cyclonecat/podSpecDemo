@@ -19,11 +19,8 @@ PODS:
     - zichenPodSpec/zichenPodSpec (= 0.0.1)
   - zichenPodSpec/zichenPodSpec (0.0.1):
     - AFNetworking
-    - zichenPodSpec/zichenPodSpec/Help (= 0.0.1)
     - zichenPodSpec/zichenPodSpec/zichenPodDirOne (= 0.0.1)
     - zichenPodSpec/zichenPodSpec/zichenPodDirTwo (= 0.0.1)
-  - zichenPodSpec/zichenPodSpec/Help (0.0.1):
-    - AFNetworking
   - zichenPodSpec/zichenPodSpec/zichenPodDirOne (0.0.1):
     - AFNetworking
   - zichenPodSpec/zichenPodSpec/zichenPodDirTwo (0.0.1):
@@ -38,7 +35,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  zichenPodSpec: 30056aca3a3de5aee4460087bf19ad2c1bbf81bd
+  zichenPodSpec: c9076639bde38915cb83a91bb8ea846fb97a95c0
 
 PODFILE CHECKSUM: 7fc4daa9256497553d7fa7c0f1805b7b33a85c9e
 
